@@ -4,5 +4,6 @@ pandas
 numpy
 plotly
 plotly-express
+plotly-graph_objects
 seaborn
 matplotlib
