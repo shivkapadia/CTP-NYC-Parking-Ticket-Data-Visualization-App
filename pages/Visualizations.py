@@ -206,7 +206,7 @@ elif(option == "Common Kinds of Tickets"):
     df_top_10 = df3.tail(10)
     list_int = df_top_10['Violation Code'].tolist()
 
-    fig = go.Figure(data=[go.Bar(str(x=list(map(str,list_int))), y=df_top_10["Total Amount"].tolist(), 
+    fig = go.Figure(data=[go.Bar(x=list(map(str,list_int)), y=df_top_10["Total Amount"].tolist(), 
             hovertext=[tag_1,tag_2,tag_3,tag_4,tag_5,tag_6,tag_7,tag_8,tag_9,tag_10])],layout=go.Layout(height=600, width=900))
     # Customize aspect
     fig.update_traces(marker_color='rgb(158,202,225)', marker_line_color='rgb(8,48,107)',
