@@ -9,7 +9,7 @@ st.header("🚗 Meet Team Park It Like It's Hot! 🚗")
 
 col1, mid, col2 = st.columns([1,10,20])
 with col1:
-    st.image('images/ange_circle.jpg', width=250)
+    st.image('images/ange_circle.JPG', width=250)
 with col2:
     st.write("\n")
     st.write("\n")
@@ -22,7 +22,7 @@ with col2:
 
 col1, mid, col2 = st.columns([1,10,20])
 with col1:
-    st.image('images/conor_circle.jpg', width=250)
+    st.image('images/conor_circle.JPG', width=250)
 with col2:
     st.write("\n")
     st.write("\n")
@@ -34,7 +34,7 @@ with col2:
 
 col1, mid, col2 = st.columns([1,10,20])
 with col1:
-    st.image('images/fahad_circle.jpg', width=250)
+    st.image('images/fahad_circle.JPG', width=250)
 with col2:
     st.write("\n")
     st.write("\n")
