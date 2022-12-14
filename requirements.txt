@@ -3,6 +3,5 @@ pandas
 numpy
 plotly
 plotly-express
-pycaret
 seaborn
 matplotlib
