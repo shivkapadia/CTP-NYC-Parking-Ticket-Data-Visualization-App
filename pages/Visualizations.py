@@ -21,7 +21,7 @@ st.write('You selected:', option)
 if(option == "Time of Day"):
     def load_data():
         try:
-            df = pd.read_csv('https://raw.githubusercontent.com/fahadtahir02/NYC-Parking-Ticket-Data-Visualizer/main/data/NYC_Parking_Data.csv')
+            df = pd.read_csv('https://raw.githubusercontent.com/conor7276/CTP-NYC-Parking-Ticket-Data-Visualization-App/main/data/NYC_Parking_Data.csv')
             print("Loading github data")
         except Exception as e:
             df = pd.read_csv('data/NYC_Parking_Data_Updated(1).csv')
@@ -88,7 +88,7 @@ elif(option == "Fines Over the Years"):
 elif(option == "Hotspots"):
     def load_data():
         try:
-            df = pd.read_csv('https://raw.githubusercontent.com/fahadtahir02/NYC-Parking-Ticket-Data-Visualizer/main/data/NYC_Parking_Data.csv')
+            df = pd.read_csv('https://raw.githubusercontent.com/conor7276/CTP-NYC-Parking-Ticket-Data-Visualization-App/main/data/NYC_Parking_Data.csv')
             print("Loading github data")
         except Exception as e:
             df = pd.read_csv('data/NYC_Parking_Data_Updated(1).csv')
@@ -153,7 +153,7 @@ elif(option == "Fines Over the Years"):
         st.write(df['Years'].iloc[year], ": $", df['Total Earned'].iloc[year])
     # can use a switch structure to choose what graph to display based on option 
 elif(option == "Most Spotted Color"):
-    data = pd.read_csv('https://raw.githubusercontent.com/fahadtahir02/NYC-Parking-Ticket-Data-Visualizer/main/data/NYC_Parking_Data.csv')
+    data = pd.read_csv('https://raw.githubusercontent.com/conor7276/CTP-NYC-Parking-Ticket-Data-Visualization-App/main/data/NYC_Parking_Data.csv')
     ndata = data[["Violation Code", "Issue Date"]].copy()
     ndata.transpose()
     vCode = ndata["Violation Code"].unique()

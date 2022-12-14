@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-df = pd.read_csv("https://raw.githubusercontent.com/fahadtahir02/NYC-Parking-Ticket-Data-Visualizer/main/data/NYC_Parking_Data.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/conor7276/CTP-NYC-Parking-Ticket-Data-Visualization-App/main/data/NYC_Parking_Data.csv")
 
 st.header("🔍 Find your license plate! 🔍")
 
